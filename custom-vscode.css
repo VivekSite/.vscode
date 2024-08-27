@@ -61,7 +61,7 @@
     position: absolute !important;
     right: 1px !important;
     width: 5px !important;
-    background: #42a6cb !important;
+    background: rgb(254, 187, 30) !important;
     left: auto !important;
 }
 
@@ -72,12 +72,12 @@
 /* Tooltip box style */
 .monaco-editor-hover,
 .monaco-hover {
-    box-shadow: 0px 8px 32px rgba(0,0,0,.45) !important;
+    box-shadow: 0px 5px 20px rgba(4, 53, 96, 0.45) !important;
     padding: 10px !important;
     background-image: linear-gradient(rgb(15, 52, 78) 0%, rgb(20, 40, 56) 100%) !important;
     backdrop-filter: blur(3px) !important;
     border-radius: 10px !important;
-    border: none !important
+    border: 1px solid rgb(19, 64, 97) !important
 }
 
 /* Project title's style at the top. */
@@ -109,6 +109,7 @@
     background-image: linear-gradient(rgb(15, 52, 78) 0%, rgb(20, 40, 56) 100%) !important;
     backdrop-filter: blur(3px) !important;
     border-radius: 10px !important;
+    border: 1px solid rgb(19, 64, 97) !important
 }
 
 /* Remove background for lists */
@@ -118,7 +119,11 @@
 
 /* List hover */
 .monaco-list-row:hover {
-    background: rgba(20, 40, 56, .40) !important;
+    background: rgb(19, 64, 97) !important;
+}
+
+.monaco-list-row:active {
+    background: rgb(19, 64, 97) !important;
 }
 
 .notifications-toasts .monaco-list-row:hover {
